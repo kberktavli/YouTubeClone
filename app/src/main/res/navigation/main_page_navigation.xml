@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page_navigation"
+    app:startDestination="@id/mainpageFragment">
+
+    <fragment
+        android:id="@+id/mainpageFragment"
+        android:name="com.example.youtubeclone.MainpageFragment"
+        android:label="fragment_mainpage"
+        tools:layout="@layout/fragment_mainpage" />
+</navigation>
